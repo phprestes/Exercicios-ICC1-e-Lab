@@ -1,89 +1,57 @@
-- Todos os exercícios das disciplinas de **SCC0221 - Introdução à Ciência de Computação** e **SCC0222 - Laboratório de Introdução à Ciência de Computação** (2024/1) da Universidade de São Paulo (USP), os assuntos abordados nas disciplinas vão desde as estruturas básicas da linguagem C até problemas de recursão, além de um trabalho extra de manipulação de arquivos para o desenvolvimento de um código de processamento de imagens.
+# Exercícios de ICC1 e Laboratório
 
-# Introdução à Ciência de Computação I
-- Algoritmo (algoritmo.c)
-- Imprima! (imprima.c)
-- Corrida (Desafio) (corrida.c)
-- Memória (memoria.c)
-- Fatorial (Desafio) (fatorialhard.c)
-- Fatorial (Versão Simples) (fatorial.c)
-- Inverta (inverta.c)
-- Somador (vetor) (somadorvet.c)
-- Palíndromo (palindromo.c)
-- Primo? (Desafio) (primo.c)
-- Jogo! (jogo.c)
+Todos os exercícios das disciplinas **SCC0221 - Introdução à Ciência de Computação** e **SCC0222 - Laboratório de Introdução à Ciência de Computação** (2024/1), com assuntos que vão das estruturas básicas da linguagem C a problemas de recursão, além de um trabalho extra de processamento de imagens com manipulação de arquivos.
 
-# Laboratório de Introdução à Ciência de Computação I
-## Aula 1, 2, 3 - Estruturas básicas da linguagem C e Input/Output
-- Conversão numérica (conversor.c)
-- Formatar data (data.c)
-- Calculadora (calculadora.c)
-- Size Of 1 (sizeof1)
-- Size Of 2 (sizeof2)
+<p align="center">
+  <img alt="Disciplina" src="https://img.shields.io/badge/SCC0221-Introdu%C3%A7%C3%A3o%20%C3%A0%20Ci%C3%AAncia%20de%20Computa%C3%A7%C3%A3o-blue?style=for-the-badge">
+  <img alt="Disciplina" src="https://img.shields.io/badge/SCC0222-Laborat%C3%B3rio%20de%20ICC-blue?style=for-the-badge">
+  <img alt="Instituição" src="https://img.shields.io/badge/USP-Universidade%20de%20S%C3%A3o%20Paulo-orange?style=for-the-badge">
+</p>
 
-## Aula 4 - Operadores lógicos e condicionais
-- Operadores (operadores.c)
-- Troco (troco.c)
-- Polígono (poligono.c)
+> **Disciplinas:** SCC0221 - Introdução à Ciência de Computação e SCC0222 - Laboratório de Introdução à Ciência de Computação (2024/1) <br>
+> **Instituição:** USP - Universidade de São Paulo
 
-## Aula 5 - Operadores lógicos e condicionais
-- Nota de Cálculo (notacalc.c)
-- Quadrado ou Retângulo? (quadret.c)
-- Tarefas semanais (tarefas.c)
+<p align="center">
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
+</p>
 
-## Aula 6 - Estruturas de Repetição
-- Soma de Sequência (soma.c)
-- Corrida de Kart (kart.c)
-- Números especiais de quatro dígitos (nespeciais4.c)
-- Maior e menor primo (mmprimo.c)
+## Requisitos
 
-## Aula 7 - Ponteiros
-- String na memória (stringm.c)
-- Swap (swap.c)
-- Ponteiro para ponteiro (ptop.c)
+- Compilador **C** (por exemplo, `gcc`)
 
-## Aula 8 - Vetores
-- Conjuntos (conjuntos.c)
-- Manipulação de vetores (manipvet.c)
-- Gerente de mercado (genmercado.c)
+## Como Executar
 
-## Aula 9 - Funções
-- Palíndromo (palindromo.c)
-- Algarismos Romanos (algromano.c)
-- Número desaparecido (ndesaparecido.c)
-- Colocação de Atletas (colocatleta.c)
+```bash
+gcc ICC1/fatorial.c -o programa
+./programa
+```
 
-## Aula 10 - Matrizes
-- Mono Yasou no CBolão (monoyasou.c)
-- Multiplicação e Divisão (multdivis.c)
-- Batalha Naval (batnaval.c)
-- Notas de ICC1 (notasicc1.c)
+## Estrutura do Projeto
 
-## Aula 11 - Alocação Dinâmica
-- Dinâmica de Matrizes (dinmatrizes.c)
-- Consulta dados (consultadados.c)
-- Conjuntos 2 (conjuntos2.c)
+- `/ICC1`: exercícios de Introdução à Ciência de Computação I.
+- `/LabICC1`: exercícios do laboratório, uma pasta por aula (`Aulas 1, 2, 3`, `Aula 4` a `Aula 14`), além de `Recursão` e `Extra`.
 
-## Aula 12 - Strings
-- Catálogo da Biblioteca (catbiblio.c)
+## Conteúdo
 
-## Aula 13 - Typedef/Struct
-- Cadastro do Banco (cadastrobanco.c)
-- Caderno de Receitas (receitas.c)
-- Juntar Strings (juntarstrings.c)
+### Introdução à Ciência de Computação I
 
-## Aula 14 - Arquivos
-- Copia Arquivos (copyarquivos.c)
-- Conselhos do Mestre Rafito (rafito.c)
-- Contagem de palavras (contagem.c)
+- Algoritmo (`algoritmo.c`), Imprima! (`imprima.c`), Corrida (Desafio) (`corrida.c`), Memória (`memoria.c`)
+- Fatorial (Desafio) (`fatorialhard.c`), Fatorial (Versão Simples) (`fatorial.c`), Inverta (`inverta.c`)
+- Somador (vetor) (`somadorvet.c`), Palíndromo (`palindromo.c`), Primo? (Desafio) (`primo.c`), Jogo! (`jogo.c`)
 
-## Recursão 
-- Soma (soma.c)
-- Torrei de Hanoi (hanoi.c)
+### Laboratório de Introdução à Ciência de Computação I
 
-## Extra
-> Exercício passado como "diversão para as férias" que consisita em criar um software de processamento de imagens .pgm realizando operações de log e normalização.
-- fusca.pgm (antes)
-- f.pgm (depois)
-- sat_image.pgm (antes)
-- s.pgm (depois)
+- **Aulas 1, 2, 3 - Estruturas básicas da linguagem C e Input/Output:** Conversão numérica, Formatar data, Calculadora, Size Of 1 e 2.
+- **Aula 4 - Operadores lógicos e condicionais:** Operadores, Troco, Polígono.
+- **Aula 5 - Operadores lógicos e condicionais:** Nota de Cálculo, Quadrado ou Retângulo?, Tarefas semanais.
+- **Aula 6 - Estruturas de Repetição:** Soma de Sequência, Corrida de Kart, Números especiais de quatro dígitos, Maior e menor primo.
+- **Aula 7 - Ponteiros:** String na memória, Swap, Ponteiro para ponteiro.
+- **Aula 8 - Vetores:** Conjuntos, Manipulação de vetores, Gerente de mercado.
+- **Aula 9 - Funções:** Palíndromo, Algarismos Romanos, Número desaparecido, Colocação de Atletas.
+- **Aula 10 - Matrizes:** Mono Yasou no CBolão, Multiplicação e Divisão, Batalha Naval, Notas de ICC1.
+- **Aula 11 - Alocação Dinâmica:** Dinâmica de Matrizes, Consulta dados, Conjuntos 2.
+- **Aula 12 - Strings:** Catálogo da Biblioteca.
+- **Aula 13 - Typedef/Struct:** Cadastro do Banco, Caderno de Receitas, Juntar Strings.
+- **Aula 14 - Arquivos:** Copia Arquivos, Conselhos do Mestre Rafito, Contagem de palavras.
+- **Recursão:** Soma, Torre de Hanoi.
+- **Extra:** exercício de "diversão para as férias": software de processamento de imagens `.pgm` com operações de log e normalização (`fusca.pgm` antes e `f.pgm` depois; `sat_image.pgm` antes e `s.pgm` depois).
